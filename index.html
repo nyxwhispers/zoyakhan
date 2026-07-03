@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For Mon Cœur 🤍</title>
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- ========================= -->
+
+<!-- Animated Background -->
+
+<!-- ========================= -->
+
+<div class="background">
+
+    <div class="moon"></div>
+
+    <div class="cloud cloud1"></div>
+
+    <div class="cloud cloud2"></div>
+
+    <div class="cloud cloud3"></div>
+
+    <div class="cloud cloud4"></div>
+
+    <div id="stars"></div>
+
+</div>
+
+<!-- ========================= -->
+
+<!-- LOADING -->
+
+<!-- ========================= -->
+
+<section id="loadingScreen">
+
+    <div class="loadingBox">
+
+        <div class="loadingEmoji">
+            ☁️
+        </div>
+
+        <h1>
+            My brain really brained for this hehe...
+        </h1>
+
+        <p>
+            Loading...
+        </p>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+
+<!-- PASSWORD -->
+
+<!-- ========================= -->
+
+<section id="passwordScreen" class="hidden">
+
+    <div class="glass">
+
+        <h1>
+
+            This place wasn't made for everyone.
+
+        </h1>
+
+        <p class="hint">
+
+            Hint
+
+            <br>
+
+            <span>
+
+                Where we met.
+
+            </span>
+
+        </p>
+
+        <input
+
+        id="password"
+
+        type="password"
+
+        placeholder="Enter password">
+
+        <button id="unlockBtn">
+
+            Unlock 🤍
+
+        </button>
+
+        <p id="wrongPassword">
+
+        </p>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+
+<!-- WELCOME -->
+
+<!-- ========================= -->
+
+<section id="welcomeScreen" class="hidden">
+
+    <div class="glass">
+
+        <h1>
+
+            Hey.
+
+        </h1>
+
+        <p>
+
+            I made something.
+
+        </p>
+
+        <p>
+
+            Take your time.
+
+        </p>
+
+        <p>
+
+            Everything here exists
+
+            <br>
+
+            for a reason. 😘
+
+        </p>
+
+        <button id="beginBtn">
+
+            Begin
+
+        </button>
+
+    </div>
+
+</section>
+<!-- ========================= -->
+<!-- MAIN HOME -->
+<!-- ========================= -->
+
+<section id="homeScreen" class="hidden">
+
+    <div class="homeTitle">
+        For Mon Cœur 🤍
+    </div>
+
+    <div class="subtitle">
+        Welcome to our little corner.
+    </div>
+
+    <div class="menuGrid">
+
+        <div class="menuCard" id="cameraCard">
+
+            <div class="emoji">
+                📸
+            </div>
+
+            <h2>
+                A Few Smiles
+            </h2>
+
+            <p>
+                Four little moments.
+            </p>
+
+        </div>
+
+        <div class="menuCard" id="musicCard">
+
+            <div class="emoji">
+                🎵
+            </div>
+
+            <h2>
+                One Song
+            </h2>
+
+            <p>
+                It always reminds me of you.
+            </p>
+
+        </div>
+
+        <div class="menuCard" id="flowerCard">
+
+            <div class="emoji">
+                🌼
+            </div>
+
+            <h2>
+                Little Things
+            </h2>
+
+            <p>
+                Click me.
+            </p>
+
+        </div>
+
+        <div class="menuCard" id="memoryCard">
+
+            <div class="emoji">
+                📖
+            </div>
+
+            <h2>
+                One Memory
+            </h2>
+
+            <p>
+                Something I'll never forget.
+            </p>
+
+        </div>
+
+       
+<div class="menuCard locked" id="letterCard">
+
+<div class="emoji">💌</div>
+
+<h2>locked</h2>
+
+<p id="letterStatus">
+
+Complete everything else first... 🤍
+
+</p>
+
+    </div>
+    
+
+</section>
+<!-- ========================= -->
+<!-- POPUP PAGE -->
+<!-- ========================= -->
+
+<section id="popupPage" class="hidden">
+
+    <div class="popupGlass">
+
+        <button id="closePopup">✕</button>
+
+        <div id="popupContent">
+
+        </div>
+
+    </div>
+
+</section>
+<script src="script.js"></script>
+
+</body>
+
+</html>
